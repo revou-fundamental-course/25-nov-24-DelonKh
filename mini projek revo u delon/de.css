@@ -1,0 +1,60 @@
+/* Gaya untuk Kalkulator BMI */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+header, footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+main {
+    margin: 2rem auto;
+    max-width: 600px;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #218838;
+}
+
+#bmi-result {
+    margin-top: 2rem;
+}
+
+#result-container {
+    background: #e9ecef;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+}
